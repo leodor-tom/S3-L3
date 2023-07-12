@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>To-Do-List</title>
+  </head>
+  <body>
+    <h1>Be organized</h1>
+    <form onsubmit="addEvent(event)">
+      <input type="text" id="activity" placeholder="what you have to do?" required />
+      <input type="datetime-local" id="date" required />
+      <button>Do it</button>
+    </form>
+    <h2>To Do List</h2>
+    <div class="eventi"></div>
+    <script src="./JavaScript/script.js"></script>
+  </body>
+</html>

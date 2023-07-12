@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+}
+h1 {
+  font-size: xx-large;
+  color: red;
+}
+form input {
+  border-radius: 50px;
+}
+button {
+  border-radius: 50px;
+  width: 90px;
+}
+
+h2 {
+  color: green;
+}
+#activity {
+  width: 500px;
+}
+
+.done {
+  text-decoration: line-through;
+}
